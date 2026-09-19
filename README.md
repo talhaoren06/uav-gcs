@@ -1,5 +1,7 @@
 # OVERWATCH TACTICAL GCS 🦅
 
+![Overwatch GCS Arayüzü](assets/gcs_interface.png)
+
 A professional, multi-threaded Ground Control Station (GCS) software designed for Unmanned Aerial Vehicles (UAVs). Built with Python, PyQt5, and YOLOv8, this system provides real-time object detection, hardware telemetry monitoring, and automated tactical reporting.
 
 ## 🚀 Key Features
