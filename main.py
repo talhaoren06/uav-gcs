@@ -33,11 +33,6 @@ class UAVVisionThread(QThread):
         self.show_conf = False
         self.last_sitrep_time = 0
 
-        # Create intelligence captures directory if it does not exist
-        if not os.path.isdir("intelligence_captures"):
-            os.mkdir("intelligence_captures")
-            print("intelligence_captures folder created")
-
     def run(self):
         """Main loop for video capture, YOLO inference, and telemetry reporting."""
         if self.current_source == 0:
